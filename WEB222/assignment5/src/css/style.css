@@ -1,0 +1,52 @@
+.row {
+  display: flex;
+
+  width: 100%;
+  margin-left: -6%;
+  padding: 20px;
+  margin-top: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between; /* To evenly distribute the cards */
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.card {
+  /* Your card styles */
+  flex-grow: 1;
+  flex-basis: calc(33.33% - 20px); /* 33.33% minus gap to fit three cards in a row */
+  max-width: 300px;
+  min-width: 200px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .card {
+  color: aquamarine;
+  font-weight: bolder;
+}
+
+.card-image {
+  height: 200px;
+  display: block;
+  margin: auto;
+  margin-bottom: -20px;
+  max-width: 150px;
+  border-style: dashed;
+}
+
+h6.product-title {
+  color: rgb(196, 196, 196);
+}
+
+span.product-price {
+  color: rgb(214, 214, 214);
+}

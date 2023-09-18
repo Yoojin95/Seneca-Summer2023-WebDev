@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
+
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #a7e0fa;
+  }
+  
+.topnav a {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav nav ul {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: rgb(49, 49, 128);
+  }
+  
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: block;
+    padding: 2em;
+    padding-bottom: 2em;
+}
+
+.list-header {
+    text-align: center;
+}
+.list-header-left {
+    padding: 0.5em;
+    clear: right;
+    background-color: rgb(228, 226, 226);
+    color: rgb(91, 89, 89);
+    text-align: center;
+}
+.list-header-right {
+    padding: 0.5em;
+    clear: left;
+    background-color: rgb(228, 226, 226);
+    color: rgb(91, 89, 89);
+    text-align: center;
+}
+
+.list-content {
+    text-align: center;
+    margin-top: 1em; 
+    margin-bottom: 3em;
+}
+
+.header_list-content {
+    margin-top: 2ch;
+
+}
+.list-content-left {
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    font-size: x-large;
+}
+
+.list-content-right {
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 3em;
+    font-size: x-large;
+}
+.list-description {
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+
+.list-description-order {
+    margin-top: 3em;
+    font-size: large;
+}
+
+.list-description-order ol li {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.bird_image {
+    margin-top: 1.5em;
+ 
+}
+
+.videoFrame {
+    text-align: center;
+    clear: left;
+}
+.themes_list_item {
+    padding: 2rem 0;
+    list-style-type: none;
+}
+
+figcaption{
+    text-align: center;
+    display:block;
+    font-size: small;
+}
+.videoFrame h2 {
+    color: gray;
+}
+body{
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+content {
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+title {
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+
+> web222-assignment-2@6.0.0 eslint
+> eslint src/**/*.js
+
+
+C:\Users\user\SENECA\WEB222-Works\assignments\assignment2\a2\src\observations.js
+  312:54  warning  Expected '===' and instead saw '=='                                        eqeqeq
+  320:8   warning  Unnecessary 'else' after 'return'                                          no-else-return
+  322:42  warning  Expected '===' and instead saw '=='                                        eqeqeq
+  323:50  warning  Expected '===' and instead saw '=='                                        eqeqeq
+  434:17  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+
+✖ 5 problems (1 error, 4 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+

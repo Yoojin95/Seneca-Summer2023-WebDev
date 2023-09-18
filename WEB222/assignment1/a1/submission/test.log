@@ -1,0 +1,505 @@
+
+> web222-assignment-1@5.0.0 test
+> jest --
+
+jest-haste-map: Haste module naming collision: web222-assignment-1
+  The following files share their name; please adjust your hasteImpl:
+    * <rootDir>\package.json
+    * <rootDir>\submission\package.json
+
+FAIL src/problem-00.test.js
+  ● Console
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:146:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:147:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:148:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:149:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:150:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:151:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:152:9)
+
+    console.log
+      A_B_C
+
+      at Object.log (src/solutions.js:153:9)
+
+  ● Problem 0 - greeting() function › greeting should return the correct string output
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Hello WEB222 Student!"
+    Received: "Hello WEB222 Student"
+
+      72 |   test('greeting should return the correct string output', function () {
+      73 |     let result = greeting('WEB222 Student');
+    > 74 |     expect(result).toBe('Hello WEB222 Student!');
+         |                    ^
+      75 |   });
+      76 |
+      77 |   /**
+
+      at Object.toBe (src/problem-00.test.js:74:20)
+
+PASS src/problem-01.test.js
+  ● Console
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:146:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:147:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:148:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:149:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:150:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:151:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:152:9)
+
+    console.log
+      A_B_C
+
+      at Object.log (src/solutions.js:153:9)
+
+PASS src/problem-09.test.js
+  ● Console
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:146:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:147:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:148:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:149:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:150:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:151:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:152:9)
+
+    console.log
+      A_B_C
+
+      at Object.log (src/solutions.js:153:9)
+
+PASS src/problem-02.test.js
+  ● Console
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:146:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:147:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:148:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:149:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:150:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:151:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:152:9)
+
+    console.log
+      A_B_C
+
+      at Object.log (src/solutions.js:153:9)
+
+PASS src/problem-05.test.js
+  ● Console
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:146:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:147:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:148:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:149:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:150:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:151:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:152:9)
+
+    console.log
+      A_B_C
+
+      at Object.log (src/solutions.js:153:9)
+
+PASS src/problem-03.test.js
+  ● Console
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:146:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:147:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:148:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:149:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:150:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:151:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:152:9)
+
+    console.log
+      A_B_C
+
+      at Object.log (src/solutions.js:153:9)
+
+PASS src/problem-04.test.js
+  ● Console
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:146:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:147:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:148:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:149:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:150:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:151:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:152:9)
+
+    console.log
+      A_B_C
+
+      at Object.log (src/solutions.js:153:9)
+
+PASS src/problem-07.test.js
+  ● Console
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:146:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:147:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:148:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:149:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:150:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:151:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:152:9)
+
+    console.log
+      A_B_C
+
+      at Object.log (src/solutions.js:153:9)
+
+PASS src/problem-06.test.js
+  ● Console
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:146:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:147:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:148:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:149:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:150:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:151:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:152:9)
+
+    console.log
+      A_B_C
+
+      at Object.log (src/solutions.js:153:9)
+
+PASS src/problem-08.test.js
+  ● Console
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:146:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:147:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:148:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:149:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:150:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:151:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:152:9)
+
+    console.log
+      A_B_C
+
+      at Object.log (src/solutions.js:153:9)
+
+PASS src/problem-10.test.js
+  ● Console
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:146:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:147:9)
+
+    console.log
+      ABC
+
+      at Object.log (src/solutions.js:148:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:149:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:150:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:151:9)
+
+    console.log
+      A_BC
+
+      at Object.log (src/solutions.js:152:9)
+
+    console.log
+      A_B_C
+
+      at Object.log (src/solutions.js:153:9)
+
+
+Test Suites: 1 failed, 10 passed, 11 total
+Tests:       1 failed, 107 passed, 108 total
+Snapshots:   0 total
+Time:        1.684 s
+Ran all test suites.
